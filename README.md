@@ -21,51 +21,31 @@ Install-Package GLEW-static
 Install-Package glm
 ```
 
-### 주의사항
-- 플랫폼 **x64** 필수 (`빌드 > 구성 관리자`)
-- `GLEW-static` 사용 시 코드 상단에 `#define GLEW_STATIC` 필요
 
 ### 실행
 1. 빈 C++ 프로젝트 생성
-2. `opengl/main.cpp` 추가
-3. `F5`
-
-> ESC로 종료
+2. 패키지 설치
+3. 소스코드 추가 후 실행
 
 ---
 
 ## DirectX 12
 
-### 주의사항
-- D3D12는 Windows SDK 내장 — 별도 NuGet 불필요
-- `d3d12.lib`, `dxgi.lib`, `d3dcompiler.lib`은 `#pragma comment`로 자동 링크
-- 서브시스템: **콘솔 (`/SUBSYSTEM:CONSOLE`)** + 진입점 `main()` 사용
-- 플랫폼 **x64** 필수
-
 ### 실행
 1. 빈 C++ 프로젝트 생성
-2. `directx12/main.cpp` 추가
-3. `F5`
-
-> ESC로 종료
+2. 소스코드 추가 후 실행
 
 ---
 
 ## Three.js
 
-별도 설치 없음. CDN으로 로드.
-
 ### 실행
-`threejs/index.html`을 브라우저에서 바로 열기.
+`index.html`을 브라우저에서 바로 열기.
+or 서버로 열기
 
 ---
 
 ## R3F + WebGPU
-
-### 요구사항
-- Node.js 18+
-- Chrome 113+ / Edge 113+  
-  (WebGPU 미지원 환경은 자동으로 WebGL2 폴백)
 
 ### 세팅
 ```bash
