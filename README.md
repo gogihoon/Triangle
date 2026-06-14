@@ -1,15 +1,6 @@
 # Triangle
 
-동일한 무지개 삼각형을 4가지 그래픽스 환경에서 구현한 예제 모음.
-
-| 버전 | 환경 | 언어 |
-|------|------|------|
-| OpenGL | VS2022 + GLFW + GLEW + GLM | C++ |
-| DirectX 12 | VS2022 + D3D12 + DirectXMath | C++ |
-| Three.js | 브라우저 단일 HTML | JavaScript |
-| R3F + WebGPU | Vite + React + three/webgpu + TSL | TypeScript |
-
----
+# 2026 컴퓨터 그래픽 기말 과제 - 20220914 고기훈
 
 ## OpenGL
 
