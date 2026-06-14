@@ -2,7 +2,7 @@
 
 
 ## OpenGL
-
+![OpenGL](screenshot/opengl.png)
 ### 패키지 설치
 VS2022 패키지 관리자 콘솔:
 ```powershell
