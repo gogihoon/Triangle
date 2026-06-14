@@ -2,7 +2,7 @@
 
 
 ## OpenGL
-![OpenGL](screenshot/opengl.png)
+![OpenGL](screenshot/opengl.PNG)
 ### 패키지 설치
 VS2022 패키지 관리자 콘솔:
 ```powershell
@@ -20,7 +20,7 @@ Install-Package glm
 ---
 
 ## DirectX 12
-
+![DirectX](screenshot/DX12.PNG)
 ### 실행
 1. 빈 C++ 프로젝트 생성
 2. 소스코드 추가 후 실행
@@ -28,7 +28,7 @@ Install-Package glm
 ---
 
 ## Three.js
-
+![Three](screenshot/three.PNG)
 ### 실행
 `index.html`을 브라우저에서 바로 열기.
 or 서버로 열기
@@ -36,7 +36,7 @@ or 서버로 열기
 ---
 
 ## R3F + WebGPU
-
+![R3F](screenshot/r3f.PNG)
 ### 세팅
 ```bash
 npm create vite@latest my-app -- --template react-ts
