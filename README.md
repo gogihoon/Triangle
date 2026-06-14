@@ -75,6 +75,7 @@ npm install
 npm install three @react-three/fiber
 npm install -D @types/three
 ```
+이후 App.tsx파일 교체
 
 ### 실행
 ```bash
